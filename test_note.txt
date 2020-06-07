@@ -1,0 +1,18 @@
+# This Demo project skeleton sources from a interview test project called Equity Position Management.
+# See ProgrammingTest - Position Management[3].pdf for details.
+
+1. JUnit Test
+Run DEquityPositionServiceTes.java as JUnit Test.
+
+2. REST api test.
+cd to project directory, then run as the following command
+    mvn spring-boot:run
+then in another termianl, use the following command to send transaction and get equity position.
+curl -w "\n" -H "Content-Type:application/json" -X POST -d '{"transactionId": 1,"tradeId": 1,"version": 1,"securityCode": "REL","quantity": 50,"tradeActionType": "INSERT","transactionType": "Buy"}' localhost:8080/transaction
+curl -w "\n" -H "Content-Type:application/json" -X POST -d '{"transactionId": 2,"tradeId": 2,"version": 1,"securityCode": "ITC","quantity": 40,"tradeActionType": "INSERT","transactionType": "Sell"}' localhost:8080/transaction
+curl -w "\n" localhost:8080/position
+curl -w "\n" -H "Content-Type:application/json" -X POST -d '{"transactionId": 6,"tradeId": 4,"version": 1,"securityCode": "INF","quantity": 20,"tradeActionType": "INSERT","transactionType": "Sell"}' localhost:8080/transaction
+curl -w "\n" -H "Content-Type:application/json" -X POST -d '{"transactionId": 4,"tradeId": 1,"version": 2,"securityCode": "REL","quantity": 60,"tradeActionType": "UPDATE","transactionType": "Buy"}' localhost:8080/transaction
+curl -w "\n" -H "Content-Type:application/json" -X POST -d '{"transactionId": 3,"tradeId": 3,"version": 1,"securityCode": "INF","quantity": 70,"tradeActionType": "INSERT","transactionType": "Buy"}' localhost:8080/transaction
+curl -w "\n" -H "Content-Type:application/json" -X POST -d '{"transactionId": 5,"tradeId": 2,"version": 2,"securityCode": "ITC","quantity": 30,"tradeActionType": "CANCEL","transactionType": "Buy"}' localhost:8080/transaction
+curl -w "\n" localhost:8080/position
