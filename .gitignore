@@ -6,7 +6,7 @@ HELP.md
 !**/src/test/**
 
 ### projet runtime output
-position-management/data/**
+**/_data/**
 
 ### Eclipse project files
 **/.classpath

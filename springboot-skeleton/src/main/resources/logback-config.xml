@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-    <springProperty scope="context" name="LOG_HOME" source="logging.path" defaultValue="./data/logs/spring-boot-logback"/>
+    <springProperty scope="context" name="LOG_HOME" source="logging.path" defaultValue="./_data/logs/spring-boot-logback"/>
     <springProperty scope="context" name="LOG_ROOT_LEVEL" source="logging.level.root" defaultValue="INFO"/>
     <springProperty scope="context" name="STDOUT" source="log.stdout" defaultValue="STDOUT"/>
     <property name="LOG_PREFIX" value="spring-boot-logback" />
