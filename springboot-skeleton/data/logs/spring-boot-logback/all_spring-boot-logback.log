@@ -1,0 +1,54 @@
+[] | [20200608 04:13:33.421] | [INFO] | [VM-L18] | [main] | [p.t.d.s.PositionManagementApplication] | --> Starting PositionManagementApplication on VM-L18 with PID 4784 (/home/ted/prj/SpringBootPrj/springboot-skeleton/target/classes started by ted in /home/ted/prj/SpringBootPrj/springboot-skeleton) |
+[] | [20200608 04:13:33.425] | [INFO] | [VM-L18] | [main] | [p.t.d.s.PositionManagementApplication] | --> No active profile set, falling back to default profiles: default |
+[] | [20200608 04:13:35.626] | [INFO] | [VM-L18] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Initializing ProtocolHandler ["http-nio-8080"] |
+[] | [20200608 04:13:35.627] | [INFO] | [VM-L18] | [main] | [o.a.catalina.core.StandardService] | --> Starting service [Tomcat] |
+[] | [20200608 04:13:35.628] | [INFO] | [VM-L18] | [main] | [o.a.catalina.core.StandardEngine] | --> Starting Servlet engine: [Apache Tomcat/9.0.35] |
+[] | [20200608 04:13:35.743] | [INFO] | [VM-L18] | [main] | [o.a.c.c.C.[Tomcat].[localhost].[/]] | --> Initializing Spring embedded WebApplicationContext |
+[] | [20200608 04:13:35.828] | [INFO] | [VM-L18] | [main] | [com.zaxxer.hikari.HikariDataSource] | --> HikariPool-1 - Starting... |
+[] | [20200608 04:13:36.011] | [INFO] | [VM-L18] | [main] | [com.zaxxer.hikari.HikariDataSource] | --> HikariPool-1 - Start completed. |
+[] | [20200608 04:13:36.455] | [INFO] | [VM-L18] | [task-1] | [o.h.jpa.internal.util.LogHelper] | --> HHH000204: Processing PersistenceUnitInfo [name: default] |
+[] | [20200608 04:13:36.590] | [INFO] | [VM-L18] | [task-1] | [org.hibernate.Version] | --> HHH000412: Hibernate ORM core version 5.4.15.Final |
+[] | [20200608 04:13:36.773] | [INFO] | [VM-L18] | [task-1] | [o.h.annotations.common.Version] | --> HCANN000001: Hibernate Commons Annotations {5.1.0.Final} |
+[] | [20200608 04:13:36.983] | [INFO] | [VM-L18] | [task-1] | [org.hibernate.dialect.Dialect] | --> HHH000400: Using dialect: org.hibernate.dialect.H2Dialect |
+[] | [20200608 04:13:37.898] | [INFO] | [VM-L18] | [task-1] | [o.h.e.t.j.p.i.JtaPlatformInitiator] | --> HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] |
+[] | [20200608 04:13:39.185] | [INFO] | [VM-L18] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Starting ProtocolHandler ["http-nio-8080"] |
+[] | [20200608 04:13:39.233] | [INFO] | [VM-L18] | [main] | [p.t.d.s.PositionManagementApplication] | --> Started PositionManagementApplication in 6.608 seconds (JVM running for 7.505) |
+[] | [20200608 04:15:18.940] | [INFO] | [VM-L18] | [http-nio-8080-exec-1] | [o.a.c.c.C.[Tomcat].[localhost].[/]] | --> Initializing Spring DispatcherServlet 'dispatcherServlet' |
+[] | [20200608 04:15:29.387] | [INFO] | [VM-L18] | [SpringContextShutdownHook] | [com.zaxxer.hikari.HikariDataSource] | --> HikariPool-1 - Shutdown initiated... |
+[] | [20200608 04:15:29.391] | [INFO] | [VM-L18] | [SpringContextShutdownHook] | [com.zaxxer.hikari.HikariDataSource] | --> HikariPool-1 - Shutdown completed. |
+[] | [20200608 04:15:41.975] | [INFO] | [VM-L18] | [main] | [p.t.d.s.PositionManagementApplication] | --> Starting PositionManagementApplication on VM-L18 with PID 4912 (/home/ted/prj/SpringBootPrj/springboot-skeleton/target/classes started by ted in /home/ted/prj/SpringBootPrj/springboot-skeleton) |
+[] | [20200608 04:15:41.981] | [INFO] | [VM-L18] | [main] | [p.t.d.s.PositionManagementApplication] | --> No active profile set, falling back to default profiles: default |
+[] | [20200608 04:15:44.026] | [INFO] | [VM-L18] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Initializing ProtocolHandler ["http-nio-8080"] |
+[] | [20200608 04:15:44.027] | [INFO] | [VM-L18] | [main] | [o.a.catalina.core.StandardService] | --> Starting service [Tomcat] |
+[] | [20200608 04:15:44.028] | [INFO] | [VM-L18] | [main] | [o.a.catalina.core.StandardEngine] | --> Starting Servlet engine: [Apache Tomcat/9.0.35] |
+[] | [20200608 04:15:44.154] | [INFO] | [VM-L18] | [main] | [o.a.c.c.C.[Tomcat].[localhost].[/]] | --> Initializing Spring embedded WebApplicationContext |
+[] | [20200608 04:15:44.280] | [INFO] | [VM-L18] | [main] | [com.zaxxer.hikari.HikariDataSource] | --> HikariPool-1 - Starting... |
+[] | [20200608 04:15:44.425] | [INFO] | [VM-L18] | [main] | [com.zaxxer.hikari.HikariDataSource] | --> HikariPool-1 - Start completed. |
+[] | [20200608 04:15:44.869] | [INFO] | [VM-L18] | [task-1] | [o.h.jpa.internal.util.LogHelper] | --> HHH000204: Processing PersistenceUnitInfo [name: default] |
+[] | [20200608 04:15:44.990] | [INFO] | [VM-L18] | [task-1] | [org.hibernate.Version] | --> HHH000412: Hibernate ORM core version 5.4.15.Final |
+[] | [20200608 04:15:45.139] | [INFO] | [VM-L18] | [task-1] | [o.h.annotations.common.Version] | --> HCANN000001: Hibernate Commons Annotations {5.1.0.Final} |
+[] | [20200608 04:15:45.323] | [INFO] | [VM-L18] | [task-1] | [org.hibernate.dialect.Dialect] | --> HHH000400: Using dialect: org.hibernate.dialect.H2Dialect |
+[] | [20200608 04:15:46.176] | [INFO] | [VM-L18] | [task-1] | [o.h.e.t.j.p.i.JtaPlatformInitiator] | --> HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] |
+[] | [20200608 04:15:47.379] | [INFO] | [VM-L18] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Starting ProtocolHandler ["http-nio-8080"] |
+[] | [20200608 04:15:47.425] | [INFO] | [VM-L18] | [main] | [p.t.d.s.PositionManagementApplication] | --> Started PositionManagementApplication in 6.191 seconds (JVM running for 7.026) |
+[] | [20200608 04:15:58.328] | [INFO] | [VM-L18] | [http-nio-8080-exec-1] | [o.a.c.c.C.[Tomcat].[localhost].[/]] | --> Initializing Spring DispatcherServlet 'dispatcherServlet' |
+[] | [20200608 04:16:01.195] | [INFO] | [VM-L18] | [SpringContextShutdownHook] | [com.zaxxer.hikari.HikariDataSource] | --> HikariPool-1 - Shutdown initiated... |
+[] | [20200608 04:16:01.200] | [INFO] | [VM-L18] | [SpringContextShutdownHook] | [com.zaxxer.hikari.HikariDataSource] | --> HikariPool-1 - Shutdown completed. |
+[] | [20200608 04:20:50.422] | [INFO] | [VM-L18] | [main] | [p.t.d.s.PositionManagementApplication] | --> Starting PositionManagementApplication on VM-L18 with PID 5177 (/home/ted/prj/SpringBootPrj/springboot-skeleton/target/classes started by ted in /home/ted/prj/SpringBootPrj/springboot-skeleton) |
+[] | [20200608 04:20:50.429] | [INFO] | [VM-L18] | [main] | [p.t.d.s.PositionManagementApplication] | --> No active profile set, falling back to default profiles: default |
+[] | [20200608 04:20:52.573] | [INFO] | [VM-L18] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Initializing ProtocolHandler ["http-nio-8080"] |
+[] | [20200608 04:20:52.574] | [INFO] | [VM-L18] | [main] | [o.a.catalina.core.StandardService] | --> Starting service [Tomcat] |
+[] | [20200608 04:20:52.575] | [INFO] | [VM-L18] | [main] | [o.a.catalina.core.StandardEngine] | --> Starting Servlet engine: [Apache Tomcat/9.0.35] |
+[] | [20200608 04:20:52.673] | [INFO] | [VM-L18] | [main] | [o.a.c.c.C.[Tomcat].[localhost].[/]] | --> Initializing Spring embedded WebApplicationContext |
+[] | [20200608 04:20:52.764] | [INFO] | [VM-L18] | [main] | [com.zaxxer.hikari.HikariDataSource] | --> HikariPool-1 - Starting... |
+[] | [20200608 04:20:52.883] | [INFO] | [VM-L18] | [main] | [com.zaxxer.hikari.HikariDataSource] | --> HikariPool-1 - Start completed. |
+[] | [20200608 04:20:53.290] | [INFO] | [VM-L18] | [task-1] | [o.h.jpa.internal.util.LogHelper] | --> HHH000204: Processing PersistenceUnitInfo [name: default] |
+[] | [20200608 04:20:53.413] | [INFO] | [VM-L18] | [task-1] | [org.hibernate.Version] | --> HHH000412: Hibernate ORM core version 5.4.15.Final |
+[] | [20200608 04:20:53.540] | [INFO] | [VM-L18] | [task-1] | [o.h.annotations.common.Version] | --> HCANN000001: Hibernate Commons Annotations {5.1.0.Final} |
+[] | [20200608 04:20:53.733] | [INFO] | [VM-L18] | [task-1] | [org.hibernate.dialect.Dialect] | --> HHH000400: Using dialect: org.hibernate.dialect.H2Dialect |
+[] | [20200608 04:20:54.744] | [INFO] | [VM-L18] | [task-1] | [o.h.e.t.j.p.i.JtaPlatformInitiator] | --> HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] |
+[] | [20200608 04:20:55.916] | [INFO] | [VM-L18] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Starting ProtocolHandler ["http-nio-8080"] |
+[] | [20200608 04:20:55.967] | [INFO] | [VM-L18] | [main] | [p.t.d.s.PositionManagementApplication] | --> Started PositionManagementApplication in 6.245 seconds (JVM running for 7.055) |
+[] | [20200608 04:20:59.940] | [INFO] | [VM-L18] | [http-nio-8080-exec-1] | [o.a.c.c.C.[Tomcat].[localhost].[/]] | --> Initializing Spring DispatcherServlet 'dispatcherServlet' |
+[] | [20200608 04:21:01.725] | [INFO] | [VM-L18] | [SpringContextShutdownHook] | [com.zaxxer.hikari.HikariDataSource] | --> HikariPool-1 - Shutdown initiated... |
+[] | [20200608 04:21:01.728] | [INFO] | [VM-L18] | [SpringContextShutdownHook] | [com.zaxxer.hikari.HikariDataSource] | --> HikariPool-1 - Shutdown completed. |

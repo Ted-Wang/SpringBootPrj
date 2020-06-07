@@ -8,12 +8,12 @@
 		<version>2.3.0.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.cienet.interview</groupId>
-	<artifactId>project-name</artifactId>
+	<groupId>psn.ted.demo</groupId>
+	<artifactId>SpringBoot-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>project-name</name>
-	<description>Demo project for CIeNET interview</description>
+	<description>Demo project for SpringBoot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -47,12 +47,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>org.junit.vintage</groupId>
-					<artifactId>junit-vintage-engine</artifactId>
-				</exclusion>
-			</exclusions>
+<!-- 		the	following exclusions is for throw away JUnit 4, and use JUnit 5 exclusively. -->
+<!-- 			<exclusions> -->
+<!-- 				<exclusion> -->
+<!-- 					<groupId>org.junit.vintage</groupId> -->
+<!-- 					<artifactId>junit-vintage-engine</artifactId> -->
+<!-- 				</exclusion> -->
+<!-- 			</exclusions> -->
 		</dependency>
 
 		<dependency>
@@ -63,11 +64,6 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
