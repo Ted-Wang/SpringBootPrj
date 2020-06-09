@@ -2,11 +2,16 @@ server:
   port: 8080
 spring:
   datasource:
+#url有以下几种形式:
+# jdbc:h2:file:E:\\path\\database 会持久化到磁盘文件，但是是单连接
+# jdbc:h2:file:~/.h2/testdb  store data to file
+# jdbc:h2:tcp://IP/database Server Mode,通过远程连接的方式
+# jdbc:h2:mem:database 直接在内存中，程序只要重启就会消失
     url: jdbc:h2:mem:equitspringdb
     driver-class-name: org.h2.Driver
     username: sa
     password: 123456
-
+# DB init script after startup
 #    schema: classpath:db/schema.sql
 #    data: classpath:db/data.sql
   jpa:
@@ -18,5 +23,7 @@ spring:
     console:
       path: /h2-console
       enabled: true
+      settings:
+      	web-allow-others=true
 logging:
   config: classpath:logback-config.xml
