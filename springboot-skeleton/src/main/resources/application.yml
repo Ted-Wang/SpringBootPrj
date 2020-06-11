@@ -24,6 +24,6 @@ spring:
       path: /h2-console
       enabled: true
       settings:
-      	web-allow-others=true
+        web-allow-others: true
 logging:
   config: classpath:logback-config.xml
