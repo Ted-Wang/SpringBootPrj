@@ -5,6 +5,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class OrderNumberTest {
 	public static void main(String[] args) throws InterruptedException {
+		long start = System.currentTimeMillis();
 		AtomicInteger total1 = new AtomicInteger();
 		AtomicInteger total2 = new AtomicInteger();
 		AtomicInteger total3 = new AtomicInteger();
@@ -22,6 +23,7 @@ public class OrderNumberTest {
 						total1.incrementAndGet();
 						if(orderNum != null && !orderNum.equals("-1")) {
 							total2.incrementAndGet();
+//							System.out.println(orderNum);
 						} else if(orderNum.equals("-1")) {
 							total3.incrementAndGet();
 							break;
@@ -40,5 +42,6 @@ public class OrderNumberTest {
 		System.out.println("[Main_2]"+total2);
 		System.out.println("[Main_-1]"+total3);
 		System.out.println("[Main_N]"+total4);
+		System.out.println("[Time cost]" + (System.currentTimeMillis() - start));
 	}
 }

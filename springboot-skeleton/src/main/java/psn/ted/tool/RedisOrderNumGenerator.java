@@ -53,10 +53,13 @@ public class RedisOrderNumGenerator {
     public RedisOrderNumGenerator() {
 //    	String host = "localhost";
     	String host = "172.17.1.100";
+//    	String host = "redis-17980.c1.us-west-2-2.ec2.cloud.redislabs.com";
+//    	int port = 17980;
 		int port = 6379;
 		int maxTotal = 128;
 		int maxIdle = 50;
 		RedisStandaloneConfiguration redisStandaloneConfiguration = new RedisStandaloneConfiguration(host, port);
+//		redisStandaloneConfiguration.setPassword("");
 		JedisConnectionFactory jedisConnectionFactory = null;
 		jedisConnectionFactory = new JedisConnectionFactory(redisStandaloneConfiguration);
 		jedisConnectionFactory.getPoolConfig().setMaxTotal(maxTotal);
